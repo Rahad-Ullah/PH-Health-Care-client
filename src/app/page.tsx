@@ -5,7 +5,7 @@ const HomePage = () => {
     <div>
       <h1>Home Page</h1>
       <p>Welcome to the home page</p>
-      <Button variant="contained">Text</Button>
+      <Button>Text</Button>
     </div>
   );
 };
