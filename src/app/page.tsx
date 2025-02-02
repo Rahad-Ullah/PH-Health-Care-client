@@ -1,8 +1,13 @@
+import { Button } from "@mui/material";
+
 const HomePage = () => {
-  return <div>
-    <h1>Home Page</h1>
-    <p>Welcome to the home page</p>
-  </div>;
+  return (
+    <div>
+      <h1>Home Page</h1>
+      <p>Welcome to the home page</p>
+      <Button variant="text">Text</Button>
+    </div>
+  );
 };
 
 export default HomePage;
