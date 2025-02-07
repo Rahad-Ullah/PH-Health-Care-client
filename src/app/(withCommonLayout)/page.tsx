@@ -1,10 +1,11 @@
 import HeroSection from "@/components/UI/HomePage/HeroSection/HeroSection";
-import { Box, Button, Container, Typography } from "@mui/material";
+import Specialist from "@/components/UI/HomePage/Specialist/Specialist";
 
 const HomePage = () => {
   return (
     <>
       <HeroSection />
+      <Specialist />
     </>
   );
 };

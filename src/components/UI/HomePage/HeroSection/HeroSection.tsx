@@ -39,7 +39,7 @@ const HeroSection = () => {
         >
           Preventive Care
         </Typography>
-        <Typography component={"p"} variant="subtitle1" fontWeight={400} my={2}>
+        <Typography component={"p"} fontWeight={400} fontSize={18} my={2}>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           Exercitationem nihil quisquam doloribus aspernatur? Vel soluta
           suscipit, ipsum commodi quas tempore qui fugiat aliquid!
