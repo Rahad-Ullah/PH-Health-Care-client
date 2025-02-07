@@ -13,7 +13,7 @@ const Footer = () => {
           color={"white"}
           mb={4}
         >
-          <Typography variant="h4" component={Link} href="/" fontWeight={600}>
+          <Typography variant="h5" component={Link} href="/" fontWeight={600}>
             P
             <Box component={"span"} color={"primary.main"}>
               H
@@ -23,34 +23,124 @@ const Footer = () => {
         </Stack>
 
         <Stack direction={"row"} justifyContent={"center"} gap={8}>
-          <Typography component={Link} href="/consultation" color={"white"}>
+          <Typography
+            component={Link}
+            href="/consultation"
+            color={"white"}
+            sx={{
+              cursor: "pointer",
+              "&:hover": {
+                color: "primary.main",
+              },
+            }}
+          >
             Consultation
           </Typography>
-          <Typography component={Link} href="/health-plans" color={"white"}>
+          <Typography
+            component={Link}
+            href="/health-plans"
+            color={"white"}
+            sx={{
+              cursor: "pointer",
+              "&:hover": {
+                color: "primary.main",
+              },
+            }}
+          >
             Health Plans
           </Typography>
-          <Typography component={Link} href="/medicine" color={"white"}>
+          <Typography
+            component={Link}
+            href="/medicine"
+            color={"white"}
+            sx={{
+              cursor: "pointer",
+              "&:hover": {
+                color: "primary.main",
+              },
+            }}
+          >
             Medicine
           </Typography>
-          <Typography component={Link} href="/diagnostics" color={"white"}>
+          <Typography
+            component={Link}
+            href="/diagnostics"
+            color={"white"}
+            sx={{
+              cursor: "pointer",
+              "&:hover": {
+                color: "primary.main",
+              },
+            }}
+          >
             Diagnostics
           </Typography>
-          <Typography component={Link} href="/ngos" color={"white"}>
+          <Typography
+            component={Link}
+            href="/ngos"
+            color={"white"}
+            sx={{
+              cursor: "pointer",
+              "&:hover": {
+                color: "primary.main",
+              },
+            }}
+          >
             NGOs
           </Typography>
         </Stack>
 
         <Stack direction={"row"} justifyContent={"center"} gap={4} mt={4}>
-          <Typography component={Link} href="/" color={"white"}>
+          <Typography
+            component={Link}
+            href="/"
+            color={"white"}
+            sx={{
+              cursor: "pointer",
+              "&:hover": {
+                color: "primary.main",
+              },
+            }}
+          >
             <Facebook />
           </Typography>
-          <Typography component={Link} href="/" color={"white"}>
+          <Typography
+            component={Link}
+            href="/"
+            color={"white"}
+            sx={{
+              cursor: "pointer",
+              "&:hover": {
+                color: "primary.main",
+              },
+            }}
+          >
             <Twitter />
           </Typography>
-          <Typography component={Link} href="/" color={"white"}>
+          <Typography
+            component={Link}
+            href="/"
+            color={"white"}
+            sx={{
+              cursor: "pointer",
+              "&:hover": {
+                color: "primary.main",
+              },
+            }}
+          >
             <Instagram />
           </Typography>
-          <Typography component={Link} href="/" color={"white"}>
+          <Typography
+            component={Link}
+            href="/"
+            color={"white"}
+            sx={{
+              cursor: "pointer",
+              "&:hover": {
+                color: "primary.main",
+              },
+            }}
+          >
             <YouTube />
           </Typography>
         </Stack>

@@ -12,7 +12,7 @@ const Navbar = () => {
         spacing={2}
       >
         {/* logo */}
-        <Typography variant="h4" component={Link} href="/" fontWeight={600}>
+        <Typography variant="h5" component={Link} href="/" fontWeight={600}>
           P
           <Box component={"span"} color={"primary.main"}>
             H
@@ -22,19 +22,69 @@ const Navbar = () => {
 
         {/* navigation links */}
         <Stack direction={"row"} justifyContent={"space-between"} gap={8}>
-          <Typography component={Link} href="/consultation">
+          <Typography
+            component={Link}
+            href="/consultation"
+            sx={{
+              cursor: "pointer",
+              color: "inherit",
+              "&:hover": {
+                color: "primary.main",
+              },
+            }}
+          >
             Consultation
           </Typography>
-          <Typography component={Link} href="/health-plans">
+          <Typography
+            component={Link}
+            href="/health-plans"
+            sx={{
+              cursor: "pointer",
+              color: "inherit",
+              "&:hover": {
+                color: "primary.main",
+              },
+            }}
+          >
             Health Plans
           </Typography>
-          <Typography component={Link} href="/medicine">
+          <Typography
+            component={Link}
+            href="/medicine"
+            sx={{
+              cursor: "pointer",
+              color: "inherit",
+              "&:hover": {
+                color: "primary.main",
+              },
+            }}
+          >
             Medicine
           </Typography>
-          <Typography component={Link} href="/diagnostics">
+          <Typography
+            component={Link}
+            href="/diagnostics"
+            sx={{
+              cursor: "pointer",
+              color: "inherit",
+              "&:hover": {
+                color: "primary.main",
+              },
+            }}
+          >
             Diagnostics
           </Typography>
-          <Typography component={Link} href="/ngos">
+          <Typography
+            component={Link}
+            href="/ngos"
+            sx={{
+              cursor: "pointer",
+              color: "inherit",
+              "&:hover": {
+                color: "primary.main",
+              },
+            }}
+          >
             NGOs
           </Typography>
         </Stack>
