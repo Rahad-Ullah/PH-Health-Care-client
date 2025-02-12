@@ -14,11 +14,11 @@ const Specialist = async () => {
     <Container>
       <Box sx={{ py: 6, textAlign: "center" }}>
         <Box sx={{ textAlign: "start" }}>
-          <Typography variant="h4" fontWeight={600}>
+          <Typography variant="h4" fontWeight={600} mb={2}>
             Explore Teatments Across Specialist
           </Typography>
           <Typography component={"p"} fontWeight={400} fontSize={18}>
-            Explore Teatments Across Specialist
+            Find experienced doctors across all specialists
           </Typography>
         </Box>
       </Box>
